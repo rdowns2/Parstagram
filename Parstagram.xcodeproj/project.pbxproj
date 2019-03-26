@@ -13,6 +13,7 @@
 		9463C73922445B3E0023C825 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9463C73822445B3E0023C825 /* LoginViewController.swift */; };
 		9463C73B22445B4F0023C825 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9463C73A22445B4F0023C825 /* FeedViewController.swift */; };
 		9463C73D224466D10023C825 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9463C73C224466D10023C825 /* CameraViewController.swift */; };
+		9463C73F224AA77F0023C825 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9463C73E224AA77F0023C825 /* PostCell.swift */; };
 		94E14041224444A600ECADF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E14040224444A600ECADF4 /* AppDelegate.swift */; };
 		94E14046224444A600ECADF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E14044224444A600ECADF4 /* Main.storyboard */; };
 		94E14048224444A800ECADF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E14047224444A800ECADF4 /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 		9463C73822445B3E0023C825 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9463C73A22445B4F0023C825 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		9463C73C224466D10023C825 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		9463C73E224AA77F0023C825 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		94E1403D224444A600ECADF4 /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E14040224444A600ECADF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94E14045224444A600ECADF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				94E1404C224444A800ECADF4 /* Info.plist */,
 				9463C73822445B3E0023C825 /* LoginViewController.swift */,
 				9463C73A22445B4F0023C825 /* FeedViewController.swift */,
+				9463C73E224AA77F0023C825 /* PostCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -407,6 +410,7 @@
 				9463C73D224466D10023C825 /* CameraViewController.swift in Sources */,
 				9463C73B22445B4F0023C825 /* FeedViewController.swift in Sources */,
 				94E14041224444A600ECADF4 /* AppDelegate.swift in Sources */,
+				9463C73F224AA77F0023C825 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
