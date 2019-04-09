@@ -19,6 +19,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     var showsCommentBar = false
     var selectedPost: PFObject!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -145,6 +146,8 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
             
             selectedPost = post
         }
+        
+        
         
 //        comment["text"] = "This is a comment"
 //        comment["post"] = post
